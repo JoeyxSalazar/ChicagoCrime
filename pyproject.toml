@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "chicagocrime"
+version = "0.1.0"
+description = "Exposing the most recent domestic violence cases in the city of chicago."
+authors = ["joeyxsalazar <salazarxjoey@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
